@@ -1,0 +1,31 @@
+{
+  "name": "@givencui/test-lerna01",
+  "version": "0.0.0",
+  "description": "lerna test1",
+  "author": "givencui <wow952100544@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/test-lerna01.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.baijia.com/"
+  },
+  "scripts": {
+    "test": "echo 'test-lerna01 test is running'",
+    "prepublish": "echo 'test-lerna01 prepublish is running'"
+  },
+  "devDependencies": {
+    "jQuery": "^1.7.4",
+    "webpack": "^5.38.1"
+  },
+  "dependencies": {
+    "lodash": "4.17.21",
+    "vue": "^2.6.13"
+  }
+}

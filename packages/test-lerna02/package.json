@@ -1,0 +1,27 @@
+{
+  "name": "@givencui/test-lerna02",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "givencui <wow952100544@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/test-lerna02.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.baijia.com/"
+  },
+  "scripts": {
+    "test": "echo 'test-lerna02 test is running'",
+    "prepublish": "echo 'test-lerna02 prepublish is running'"
+  },
+  "dependencies": {
+    "lodash": "4.17.21",
+    "vue": "^2.6.13"
+  }
+}

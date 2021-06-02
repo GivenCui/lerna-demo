@@ -1,0 +1,27 @@
+{
+  "name": "@givencui/test-main",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "givencui <wow952100544@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/test-main.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.baijia.com/"
+  },
+  "scripts": {
+    "test": "echo 'test-main test is running'",
+    "prepublish": "echo 'test-main prepublish is running'"
+  },
+  "devDependencies": {
+    "@givencui/test-lerna01": "^0.0.0",
+    "@givencui/test-lerna02": "^0.0.0"
+  }
+}
